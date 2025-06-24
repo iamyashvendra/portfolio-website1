@@ -1,0 +1,240 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>LugxGaming-by</title>
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <!-- <link rel="stylesheet" href="./css/navbar.css"> -->
+    <link rel="stylesheet" href="xyz.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+</head> 
+<body>
+    
+    <!-- --------------Navbar Start-------------- -->
+    <nav style="background: url(./css/banner-bg.jpg);"> 
+        <div class="logo"> 
+            <img src="./assets/images/logo.png" alt="" width="128px"> 
+        </div> 
+        <ul id="menuList"> 
+            <li><a href="">Home</a></li> 
+            <li><a href="">Our Shop</a></li> 
+            <li><a href="">Product Details</a></li> 
+            <li><a href="">Contact Us</a></li> 
+            <li><a href=""><button>SIGN IN</button></a></li> 
+        </ul> 
+        <div class="menu-icon"> 
+            <!-- <i class="fa-solid fa-bars"></i> --> 
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i> 
+        </div> 
+    </nav> 
+    <!--------------Navbar End-------------->
+
+    <!--------------Section Start----------->
+    <section class="s1" style="background-image: url(./assets/images/banner-bg.jpg);">
+        <!-- Left Section -->
+        <div class="d1">
+            <h5 class="text">WELCOME TO LUGX</h5>
+            <h1 class="title">BEST GAMING SITE EVER!
+              <img src="./assets/images/caption-dec.png" alt="">
+            </h1>
+            <p>LUGX Gaming is free Bootstrap 5 HTML CSS website template for your gaming websites. You <br>can download and use this layout for commercial purposes. Please tell your friends about<br> TemplateMo.</p>
+            <div class="search-box">
+                <input type="text" class="form-control" placeholder="Type Something">
+                <button class="btn search-btn">SEARCH NOW</button>
+            </div>
+        </div>
+        
+        <!-- Right Section (Game Image) -->
+        <div class="d2">
+            <div class="game-card">
+                <img src="./assets/images/banner-image.jpg" alt="Game Character">
+                <span class="price-badge">$22</span>
+                <span class="discount-badge">-40%</span>
+            </div>
+        </div>
+        
+        <section class="cards">
+            <div class="card">
+                <div class="icon"><i class="fa-solid fa-cloud-arrow-down"></i></div>
+                <p>FREE STORAGE</p>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fa-solid fa-user"></i></div>
+                <p>USER MORE</p>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fa-solid fa-reply-all"></i></div>
+                <p>REPLY READY</p>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fas fa-th-large"></i></div>
+                <p>EASY LAYOUT</p>
+            </div>
+        </section>
+
+
+    <section class="games1">
+    <div class="trending-section">
+        <div class="trending-text">
+            <span class="trending-label">Trending</span>
+            <h2 class="trending-title">Trending Games</h2>
+        </div>
+        <button class="view-all-btn">View All</button>
+    </div>
+
+    <!-- game-card  -->
+
+    <div class="container">
+        <div class="game-card">
+            <div class="price-container">
+                <img src="./assets/images/trending-01.jpg" alt="Game 1">
+                <div class="price-tag"><span class="old-price">$28</span> <br> <span class="discounted-price">$20</span></div>
+            </div>
+            <div class="game-info">
+                <p>Action</p>
+                <p class="game-title">Assassin Creed<span class="red-dot"><a href=""><i class="fa fa-shopping-bag"></i></a></span></p>
+            </div>
+        </div>
+
+        <div class="game-card">
+            <div class="price-container">
+                <img src="./assets/images/trending-02.jpg" alt="Game 2">
+                <div class="price-tag">$44</div>
+            </div>
+            <div class="game-info">
+                <p>Action</p>
+                
+                <p class="game-title">Assassin Creed <span class="red-dot"><a href=""><i class="fa fa-shopping-bag"></i></a></span> </p>
+            </div>
+        </div>
+
+        <div class="game-card">
+            <div class="price-container">
+                <img src="./assets/images/trending-03.jpg" alt="Game 3">
+                <div class="price-tag"><span class="old-price">$64</span> <br> <span class="discounted-price">$44</span></div>
+            </div>
+            <div class="game-info">
+                <p>Action</p>
+                <p class="game-title">Assassin Creed<span class="red-dot"><a href=""><i class="fa fa-shopping-bag"></i></a></span></p>
+            </div>
+        </div>
+
+        <div class="game-card">
+            <div class="price-container">
+                <img src="./assets/images/trending-04.jpg" alt="Game 4">
+                <div class="price-tag">$32</div>
+            </div>
+            <div class="game-info">
+                <p>Action</p>
+                <p class="game-title">Assassin Creed<span class="red-dot"><a href=""><i class="fa fa-shopping-bag"></i></a></span></p>
+            </div>
+        </div>
+    </div>
+  </section>
+  
+   <div class="game-top">
+  <section class="top-games">
+    <h3 class="h3">TOP GAMES</h3>
+     <div class="containe">
+        <div class="title">Most Played</div>
+        <button class="view-all-btn" id="btna">VIEW ALL</button>
+    </div>
+
+    <div class="games-contain">
+        <div class="gamecard">
+            <img src="./assets/images/top-game-01.jpg" alt="Warframe">
+            <p>Adventure</p>
+            <h4>Assassin Creed</h4>
+            <button>EXPLORE</button>
+        </div>
+        <div class="gamecard">
+            <img src="./assets/images/top-game-02.jpg" alt="PUBG">
+            <p>Adventure</p>
+            <h4>Assassin Creed</h4>
+            <button>EXPLORE</button>
+        </div>
+        <div class="gamecard">
+            <img src="./assets/images/top-game-03.jpg" alt="Apex Legends">
+            <p>Adventure</p>
+            <h4>Assassin Creed</h4>
+            <button>EXPLORE</button>
+        </div>
+        <div class="gamecard">
+            <img src="./assets/images/top-game-04.jpg" alt="The Sims 4">
+            <p>Adventure</p>
+            <h4>Assassin Creed</h4>
+            <button>EXPLORE</button>
+        </div>
+        <div class="gamecard">
+            <img src="./assets/images/top-game-05.jpg" alt="Lost Ark">
+            <p>Adventure</p>
+            <h4>Assassin Creed</h4>
+            <button class="button4">EXPLORE</button>
+        </div>
+        <div class="gamecard">
+            <img src="./assets/images/top-game-06.jpg" alt="Destiny 2">
+            <p>Adventure</p>
+            <h4>Assassin Creed</h4>
+            <button>EXPLORE</button>
+        </div>
+    </div>
+</section>
+</div>
+
+<!-- msvokop -->
+
+<section class="categories">
+    <p class="subtitle">CATEGORIES</p>
+    <h2 class="top">Top Categories</h2>
+    <div class="category-container">
+        <div class="category-card">
+            <div class="category-header">Action</div>
+            <img src="./assets/images/categories-01.jpg" alt="Brawlhalla">
+        </div>
+        <div class="category-card">
+            <div class="category-header">Action</div>
+            <img src="./assets/images/top-game-01.jpg" alt="Warframe">
+        </div>
+        <div class="category-card">
+            <div class="category-header">Action</div>
+            <img src="./assets/images/categories-03.jpg" alt="Tower of Fantasy">
+        </div>
+        <div class="category-card">
+            <div class="category-header">Action</div>
+            <img src="./assets/images/categories-04.jpg" alt="Super People">
+        </div>
+        <div class="category-card">
+            <div class="category-header">Action</div>
+            <img src="./assets/images/categories-05.jpg" alt="Warframe">
+        </div>
+    </div>
+</section>
+
+<!-- fvnjnb dikm  -->
+
+<section class="s5">
+    <img src="./assets/images/cta-bg.jpg" alt="">
+        <div class="promo-card shop-card">
+            <p class="tag1">OUR SHOP</p>
+            <h2>Go Pre-Order Buy & Get Best <span class="highlight">Prices</span> For You!</h2>
+            <p>Lorem ipsum dolor consectetur adipiscing, sed do eiusmod tempor incididunt.</p>
+            <button class="btn1">SHOP NOW</button>
+        </div>
+
+        <div class="promo-card newsletter-card">
+            <p class="tag2">NEWSLETTER</p>
+            <h2>Get Up To $100 Off Just Buy <span class="highlight">Subscribe</span> Newsletter!</h2>
+            <div class="subscribe">
+                <input type="email" placeholder="Your email...">
+                <button class="btn2">SUBSCRIBE NOW</button>
+            </div>
+        </div>
+</section>
+
+<footer class="footer">
+    <p>Copyright © 2048 LUGX Gaming Company. All rights reserved. &nbsp; Design By: Yashvendra</p>
+</footer>
+
+</body> 
+</html>

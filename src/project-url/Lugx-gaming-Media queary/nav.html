@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Navbar</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        /* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    background-color: #007bff;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+/* Logo Styling */
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.nav-links li a:hover,
+.nav-links li .active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Sign In Button */
+.sign-in {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.sign-in:hover {
+    background-color: #e63939;
+}
+
+/* Adding Some Space Below Navbar */
+.content {
+    margin-top: 80px;
+    padding: 20px;
+}
+
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="LUGX Logo">
+            <span>LUGX</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Our Shop</a></li>
+            <li><a href="#">Product Details</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <a href="#" class="sign-in">SIGN IN</a>
+    </nav>
+
+    <div class="content">
+        <p>Scroll down to see the fixed navbar effect.</p>
+    </div>
+
+</body>
+</html>
