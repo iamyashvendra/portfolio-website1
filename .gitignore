@@ -1,23 +1,25 @@
 # dependencies
 node_modules/
 
-# production build
+# build output
 dist/
 
-# environment variables
+# local env files
 .env
 .env.*.local
 
-# IDE and system files
+# IDE/editor
 .vscode/
 .idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# system
 .DS_Store
 Thumbs.db
 
 # logs
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
-
-# git conflict files
-*.orig
