@@ -57,7 +57,7 @@ function Team() {
       {/* Mentor Section */}
       <h2 className="mb-4" style={{ color: '#00bfff' }}>Our Mentor</h2>
       <div className="d-flex justify-content-center mb-5">
-        <div className="card shadow team-card bg-dark text-white w-25">
+        <div className="card shadow team-card bg-dark text-white w-100 w-sm-50 w-md-25">
           <div className="card-body">
             <img
               src={bhaiya}
